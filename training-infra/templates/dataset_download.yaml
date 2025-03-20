@@ -32,9 +32,9 @@ spec:
           rm -rf /tmp/dataset
         env:
         - name: MINIO_ACCESS_KEY
-          value: "minioadmin"
+          value: "7crUX7^HA#hIUUJs"
         - name: MINIO_SECRET_KEY
-          value: "minioadmin"
+          value: "6RU*Ji4B7mP0T*iZ"
         - name: ENVIRONMENT
           value: {{ .Values.environment }}
       restartPolicy: Never
